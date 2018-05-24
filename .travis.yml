@@ -5,3 +5,9 @@ addons:
 addons:
   artifacts:
     s3_region: eu-central-1
+
+jobs:
+  include:
+    - stage: hello_stage
+      script: echo Hello stage
+
