@@ -1,0 +1,7 @@
+addons:
+  artifacts:
+    paths:
+    - hello.txt
+addons:
+  artifacts:
+    s3_region: eu-central-1
